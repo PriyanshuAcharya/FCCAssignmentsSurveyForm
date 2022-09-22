@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">
+  This is a survey form made by Priyanshu Acharya to claim the certificate from freeCodeCamp</p>
+
+<form id="survey-form">
+<label id="name-label">Name</label><br><input type="text" id="name" placeholder="Enter your Name" required>
+<br>
+<br>
+<label id="email-label">Email</label><br><input type="email" id="email" placeholder="Enter your Email" required>
+<br>
+<br>
+<label id="number-label">Age (optional)</label><br><input type="number" id="number" placeholder="Enter your Age" min=1 max=200>
+<br>
+<br>
+<label>Describe yourself</label><br>
+<select id="dropdown">
+  <option disabled selected>Select your current role</option>
+  <option>Student</option>
+  <option>Employee</option>
+  <option>Prefer not to say</option>
+</select>
+<br>
+<br>
+<label>Will you recommend freeCodeCamp?</label><br>
+<input type="radio" name="Rate" value="Absolutely" id="Rate">Absolutely<br>
+<input type="radio" name="Rate" value="Maybe" id="Rate">Maybe<br>
+<input type="radio" name="Rate" value="Definitely not" checked id="Rate">Definitely Not
+<br>
+<br>
+<label>
+Any suggestions?</label>
+<br>
+<input type="checkbox" name="Suggestions" value="GD" id="Suggestions">Graphic Designing<br>
+<input type="checkbox" name="Suggestions" value="ML" id="Suggestions">Machine Learning<br>
+<input type="checkbox" name="Suggestions" value="AI" id="Suggestions">Artificial Intelligence
+<br>
+<br>
+<label>Any comments?</label>
+<br>
+<textarea rows="5" cols="40" id="text">
+</textarea>
+<br>
+<br>
+<input type="submit" id="submit">
+</form>
+</body>
+</html>
